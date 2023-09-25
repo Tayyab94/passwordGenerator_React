@@ -52,7 +52,6 @@ function App() {
               <input type="text" 
               className='outline-none w-full py-1 px-3' 
               value={password}  placeholder='Passowrd' readOnly  ref={passwordRef}/>
-
               <button onClick={PasswordCopy} className='outline-none bg-blue-500 text-white px-4 py-.5 shrink-0'>Copy</button>
           </div>
 
